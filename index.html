@@ -2,140 +2,122 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Esoteric Realms E-Zine</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOTR Digest</title>
 
-    .container {
-      width: 80%;
-      margin: auto;
-      overflow: hidden;
-    }
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+        }
 
-    header {
-      background-color: #354458;
-      color: white;
-      padding-top: 30px;
-      min-height: 70px;
-      border-bottom: #e8491d 3px solid;
-    }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
 
-    header a {
-      color: #ffffff;
-      text-decoration: none;
-      text-transform: uppercase;
-      font-size: 16px;
-    }
+        h1 {
+            margin-top: 0;
+            font-size: 36px;
+            font-weight: bold;
+            color: #333;
+            text-transform: uppercase;
+        }
 
-    header h1 {
-      float: left;
-      font-size: 42px;
-      line-height: 1.2;
-      margin-top: 0;
-    }
+        p {
+            line-height: 1.5;
+            margin-bottom: 20px;
+            font-size: 18px;
+            color: #666;
+        }
 
-    header #navbar {
-      float: right;
-      padding: 0;
-      margin-top: 10px;
-    }
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
 
-    header #navbar li {
-      display: inline;
-    }
+        li {
+            margin-bottom: 10px;
+        }
 
-    header #navbar li a:hover {
-      background-color: #e8491d;
-      padding: 6px 8px;
-      border-radius: 4px;
-    }
+        .download-link {
+            display: block;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            color: #333;
+            transition: background-color 0.3s ease;
+            font-size: 20px;
+            font-weight: bold;
+        }
 
-    #showcase {
-      min-height: 400px;
-      background-image: url('esoteric-realms-bg.jpg');
-      text-align: center;
-      color: white;
-    }
+        .download-link:hover {
+            background-color: #ccc;
+        }
 
-    #showcase h1 {
-      margin-top: 100px;
-      font-size: 60px;
-      margin-bottom: 10px;
-    }
+        .issue {
+            margin-top: 50px;
+            text-align: center;
+        }
 
-    #showcase p {
-      font-size: 20px;
-    }
+        .issue h2 {
+            margin-top: 0;
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            text-transform: uppercase;
+        }
 
-    .issue-list {
-      margin: 40px 0;
-      padding: 0;
-    }
+        .issue ul {
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 0;
+        }
 
-    .issue {
-      background-color: #ffffff;
-      color: #333;
-      padding: 20px;
-      margin-bottom: 10px;
-      border-radius: 4px;
-    }
-
-    .issue h3 {
-      margin-top: 0;
-      margin-bottom: 5px;
-    }
-  </style>
+        .issue li {
+            width: 45%;
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 
 <body>
-  <header>
     <div class="container">
-      <h1>Esoteric Realms</h1>
-      <nav id="navbar">
+        <h1>SOTR Digest</h1>
+        <p>An online magazine dedicated to the world of esoterism, exploring the mysteries of the universe and sharing our findings with our readers.</p>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
+            <li class="issue">
+            <img src="/images/issue0.jpg" alt="Issue 0 Cover">
+                <h2>Issue 0</h2>
+                <ul>
+                    <li>It all began in August</li>
+<li>Initiatory Myths</li>
+<li>Landmarks of the Rose+Cross</li>
+<li>The snake and the thorns</li>
+<li>Becoming the cards</li>
+<li>Spiritual Healing through Laughter</li>
+<li>The Seven Ways of Perception</li> 
+<li>Petitioning the Guardian Angel</li>
+<li>Chaos as grace</li>
+<li>Suggested readings</li>
+                </ul>
+                <a href="issue0.pdf" class="download-link">Download</a>
+            </li>
+            
     </div>
-  </header>
-
-  <section id="showcase">
-    <div class="container">
-      <h1>Welcome to Esoteric Realms E-Zine</h1>
-      <p>Explore the world of esotericism with our carefully curated articles, stories, and insights.</p>
-    </div>
-  </section>
-
-  <section class="container">
-    <h2>Latest Issues</h2>
-    <ul class="issue-list">
-      <li class="issue">
-        <h3>Issue #1: Unlocking the Secrets of the Universe</h3>
-        <p>Discover ancient wisdom and hidden meanings behind the world's most enigmatic symbols and rituals.</p>
-        <a href="issue-1.pdf" download>Download Issue #1</a>
-      </li>
-      <li class="issue">
-        <h3>Issue #2: The Power of the Occult</h3>
-        <p>Learn about the history and significance of occult practices, including astrology, alchemy, and divination.</p>
-        <a href="issue-2.pdf" download>Download Issue #2</a>
-      </li>
-      <li class="issue">
-        <h3>Issue #3: Mystical Journeys</h3>
-        <p>Embark on a journey through sacred sites and spiritual destinations, uncovering their secrets and legends.</p>
-        <a href="issue-3.pdf" download>Download Issue #3</a>
-      </li>
-    </ul>
-  </section>
 </body>
 
 </html>
