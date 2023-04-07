@@ -91,29 +91,63 @@
             color: #666;
             margin-bottom: 10px;
         }
+
+        /* Stile per il menu di navigazione */
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+        }
+
+        nav li {
+            margin: 0 10px;
+        }
+
+        nav a {
+            display: block;
+            padding: 10px;
+            color: #fff;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #666;
+        }
     </style>
 </head>
 
 <body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Issues</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
     <div class="container">
         <h1>SOTR Digest</h1>
         <p>An online magazine dedicated to the world of esoterism, exploring the mysteries of the universe and sharing our findings with our readers.</p>
         <ul>
             <li class="issue">
-            <img src="/images/issue0.jpg" alt="Issue 0 Cover" width="20%">
+                <img src="/images/issue0.jpg" alt="Issue 0 Cover" width="20%">
                 <br>
                 <h2>Issue 0</h2>
                 <ul>
                     <li>It all began in August</li>
-<li>Initiatory Myths</li>
-<li>Landmarks of the Rose+Cross</li>
-<li>The snake and the thorns</li>
-<li>Becoming the cards</li>
-<li>Spiritual Healing through Laughter</li>
-<li>The Seven Ways of Perception</li> 
-<li>Petitioning the Guardian Angel</li>
-<li>Chaos as grace</li>
-<li>Suggested readings</li>
+                    <li>Initiatory Myths</li>
+                    <li>Landmarks of the Rose+Cross</li>
+                    <li>The snake and the thorns</li>
+                    <li>Becoming the cards</li>
+                    <li>Spiritual Healing through Laughter</li>
+                    <li>The Seven Ways of Perception</li> 
+                    <li>Petitioning the Guardian Angel</li>
+                    <li>Chaos as grace</li>
+                    <li>Suggested readings</li>
                 </ul>
                 <a href="issue0.pdf" class="download-link">Download</a>
             </li>
